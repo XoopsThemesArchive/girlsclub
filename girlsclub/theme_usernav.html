@@ -1,0 +1,20 @@
+					<!-- USER NAVIGATION BAR START -->
+					<div id="navbar">
+        				<table cellspacing="0" cellpadding="0" id="menu1" class="NavMenu">
+        					<tr>	
+        						<td id="date"> 
+										<{$smarty.now|date_format:"%A, %e %B %Y"}>
+									</td>
+									<td id="search">
+										<form style="margin: 0px;" action="<{$xoops_url}>/search.php" method="get">
+  											<input type="text" name="query" size="14" />
+											<input type="hidden" name="action" value="results" />
+											<input class="formButton" type="submit" value="<{$smarty.const._SEARCH}>" />
+  											<{if $smarty.const.modid > 1}>
+    										<input type="hidden" name="mids[]" value="<{$smarty.const.modid}>" />
+  											<{/if}>
+										</form>
+									</td>
+        					</tr>
+        				</table>
+    				</div>

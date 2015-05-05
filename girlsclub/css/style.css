@@ -1,0 +1,207 @@
+/*  
+Theme Name: Girls Club
+Theme URI: http://sandbox.scribblesgraphics.com/
+Description: Three column.	
+Version: 1.0
+Original Theme XDT by ralf57 (royalfamily@email.it) V 0.6 01/05/2005
+Theme Modified to GirlsClub by dana (www.scribblesgraphics.com) 04/08/06
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+	
+
+	
+*/
+
+body      { color: #888; font-size: 12px; line-height: 140%; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana, Verdana; background: #ffffff url(../images/bg.gif); margin: 0px; padding: 0px }
+
+table {width: 100%;text-align: left;}
+table.toptable , table.maintable , table.footertable { margin-right: auto; margin-left: auto; width: 800px }
+table td  { font-size: 12px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; vertical-align: top; padding: 0; border: 0 }
+
+table.maintable {height:500px;background-color : #ffffff;border-left: 1px solid #aca899;border-right: 1px solid #aca899;border-bottom: 1px solid #aca899;}
+table.toptable  { background-color: #fff; border-right: 1px solid #aca899; border-left: 1px solid #aca899 }
+div  { font-size: 12px; line-height: 120% }
+
+
+a  { color: #8ab459; text-decoration: none; background-color: transparent }
+a:hover  { color: #8ab459; text-decoration: underline }
+
+img {border: 0px;}
+img#swap {width: 9px;height: 9px;}
+
+h1   { color: #5ab727; font-size: 20px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; margin-top: 3px; margin-bottom: 3px }
+h2  { color: #5ab727; font-size: 17px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; margin-top: 3px; margin-bottom: 3px }
+h3  { color: #5ab727; font-size: 14px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; margin-top: 3px; margin-bottom: 3px }
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #436792}
+
+
+
+legend {font-weight: bold;}
+
+div.wrapper { text-align: center; }
+
+.centered {text-align: center;}
+
+.item {margin-bottom: 10px; border: 1px solid #D0D0E0;}
+.itemHead {background-color: #f7f7f7;position: relative;margin-bottom: 10px;z-index: 0; padding: 5px;}
+.itemBody {background-color: #ffffff;position: relative;margin-bottom: 10px;z-index: 0; padding: 5px;}
+.itemTitle  {/*color: #003150;*/font-size: 110%;font-weight: normal;text-decoration: none;margin: 0px 0px .2em 0px;padding: 0px 0px 2px 0px;}
+.itemInfo {/*color: #8CA6B6;*/font-size: 0.85em; text-align: right; padding-right: 5px;}
+.itemBody {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemAdminLink {font-size: 95%;}
+.itemPermaLink {font-size: 95%;}
+.itemPoster {font-size: 95%; /*font-style:italic;*/}
+.itemPostDate {font-size: 95%/*; font-style:italic;*/}
+.itemTitle a { text-decoration: none; }
+.itemFoot {text-align: right; background-color: #f7f7f7; padding: 5px;}
+
+.comTitle a { text-decoration: none; }
+.comTitle {font-size: 110%;font-weight: normal;text-decoration: none;margin: 0px 0px .2em 0px;padding: 0px 0px 2px 0px;border-bottom: 1px solid #d0d0e0;}
+.comText {/*position: relative;margin: 5px 5px 5px 15px;left: 120px;float: left;*/line-height: 1.5em;}
+.comUserStat {font-size: 10px; color: #436792; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: bold;}
+.comUserStatus {color: #436792; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.comUserdetails {float: left;/*position: relative;top: 50px;left: 10px;*/font-size: 0.85em;border: 1px solid #d0d0e0;background-color: #fff9ef;padding: 3px;/*margin: 5px 5px 5px 5px;*/text-align: center;margin: 5px 10px 5px 0px;z-index: 0; }
+.comUserName {font-weight: bold;font-size: 110%;}
+
+.comIcons {float: right;position: relative;font-size: 0.85em;top: -25px;right: 5px;}
+.com_tl {background-image: url(../images/news_tl.gif);background-position: 0% 0%;background-repeat: no-repeat;position: relative;top: -1px;left: -1px;}
+.com_tr {background-image: url(../images/news_tr.gif);background-position: 100% 0%;background-repeat: no-repeat;position: relative;left: 2px;}
+.com_br {background-image: url(../images/news_br.gif);background-position: 100% 100%;background-repeat: no-repeat;position: relative;top: 2px;}
+.com_bl {background-image: url(../images/news_bl.gif);background-position: 0% 100%;background-repeat: no-repeat;position: relative;left: -2px;padding: .8em;overflow: hidden;}
+.comContainer {background-color: #ffffff;border: 1px solid #D0D0E0;position: relative;margin-bottom: 10px;z-index: 0;}
+
+th {background-color: #436792;color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#headerbanner    { background-color: #9c3; text-align: right; vertical-align: middle; padding-right: 5px }
+td#headerlogo { background-color: white; text-align: center; vertical-align: middle }
+td#headerbar {height: 20px;}
+
+td#date {color: #272727;width: 20%;text-align: left;vertical-align: middle;padding-left: 5px;font-weight: bold;font-size: 90%;}
+td#search {width: 95%;text-align: right;vertical-align: middle;padding-right: 10px;}
+
+/*Left Column**/
+td#leftcolumn   { font-size: 11px; padding: 10px 3px 3px; border-right: 1px dotted #8ab459; width: 150px; height: 560px }
+td#leftcolumn th  { color: white; background-color: #e94082; vertical-align: middle }
+td#leftcolumn div.blockTitle    { color: #3cf; font-weight: bold; font-size: 12px; line-height: 120%; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; background: white url(../images/arrow.gif) no-repeat left center; text-align: left; padding: 3px 3px 0px 10px }
+td#leftcolumn div.blockContent    { line-height: 140%; margin-bottom: 10px; padding: 3px }
+
+td#leftcolumn_nobg {width: 160px;height:560px; font-size:11px;background-color: #ffffff;padding: 20px 5px 5px 5px;}
+/*Center Column**/
+td#centercolumn  { font-size: 11px; width: 500px }
+
+td#centercolumn th  { color: white; background-color: #e94082; vertical-align: middle }
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn legend.blockTitle    { color: #e94082; font-weight: bold; font-size: 13px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; background: no-repeat left center; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 3px }
+td#centerCcolumn div.blockContent   { line-height: 140%; background: url(../images/compact.gif) no-repeat right top; margin-right: 0px; margin-bottom: 2px; margin-left: 0px }
+
+/*Center Left Column**/
+td#centerLcolumn  { padding: 0px 3px 0px 0px; width: 50% }
+td#centerLcolumn legend.blockTitle   { color: #e94082; font-weight: bold; font-size: 13px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; margin-top: 0px; padding: 3px }
+td#centerLcolumn div.blockContent   { line-height: 140%; background: url(../images/perfume.gif) no-repeat right top; margin-bottom: 2px; margin-left: 3px; padding-top: 3px; padding-bottom: 3px; padding-left: 3px }
+
+/*Center Right Column**/
+td#centerRcolumn  { padding: 0px 3px 0px 0px; width: 50% }
+td#centerRcolumn legend.blockTitle   { color: #e94082; font-weight: bold; font-size: 13px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; margin-top: 0px; padding: 3px }
+td#centerRcolumn div.blockContent     { line-height: 140%; background: url(../images/lipstick.gif) no-repeat right top; margin-bottom: 2px; margin-left: 3px; padding-top: 3px; padding-bottom: 3px; padding-left: 3px }
+
+div#content {text-align: left; padding: 8px;}
+
+/*Right Column**/
+td#rightcolumn    { font-size: 11px; background-color: #ffe4e1; padding: 10px 2px 4px 4px; border-left: 1px dotted #8ab459; width: 150px; height: 550px }
+td#rightcolumn th  { color: white; background-color: #e94082; vertical-align: middle }
+td#rightcolumn div.blockTitle  { color: #3cf; font-weight: bold; font-size: 12px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; background: url(../images/arrow.gif) no-repeat left center; text-align: left; padding: 3px 3px 3px 10px }
+td#rightcolumn div.blockContent   { line-height: 140%; margin-bottom: 10px; padding: 3px 3px 3px 10px }
+
+/*Footer**/
+td#footerbar  { color: #edeff1; font-size: 11px; font-family: "Lucida Sans Unicode", "Lucida Sans", Tahoma; background-color: #5ab727; text-align: center }
+td#footerbar a { color: #edeff1; font-size: 10px }
+
+/*Main Menu**/
+td#mainmenu a    { color: #8ab459; font-size: 12px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; text-decoration: none; margin: 0 0 0 5px; padding: 2px; border-bottom: 1px solid #dcdcdc; display: block }
+td#mainmenu a:hover    { color: #8ab459; text-decoration: underline; background-color: transparent; border-style: solid; border-width: 0px 0px 1px 0px; }
+td#mainmenu a.menuTop {padding-left: 3px; }
+td#mainmenu a.menuMain {padding-left: 3px; }
+td#mainmenu a.menuSub  { color: #e94082; background-color: transparent; padding-left: 9px; border: 0px }
+
+/*User menu**/
+td#usermenu a  { font-size: 11px; line-height: 13px; margin: 0; padding: 2px 4px; border-right: #666666; border-bottom: 1px solid #dcdcdc; border-left: silver; display: block }
+td#usermenu a.highlight {background-color: #fcc;}
+
+.outer {border: 1px solid #CCCCCC;}
+.head {background-color: #e7e7e7; padding: 3px; font-weight: normal;}
+.even {background-color: #e7e7e7; padding: 3px;}
+.odd {background-color: #f7f7f7; padding: 3px;}
+.foot  { font-weight: bold; background-color: #e94082; text-align: center; padding: 3px }
+tr.head td  { font-weight: bold; background-color: #ffe4e1; padding: 3px }
+tr.even td {background-color: #efefef; padding: 3px;}
+tr.odd td {background-color: #f7f7f7; padding: 3px;}
+tr.foot td {background-color: #f7f7f7; padding: 3px; font-weight: bold;}
+
+/* forms elements */
+input  { color: #333333; font-size: 11px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; background-color: #f7f7f7; padding-left: 3px; border: solid 1px #cccccc }
+textarea  { color: #333333; font-size: 11px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; background-color: #f7f7f7; border: solid 1px #cccccc; width: 430px }
+select  { font-size: 11px; font-family: "Lucida Sans", "Lucida Sans Unicode", Tahoma, Verdana; border: solid 1px #cccccc }
+.formButton {background-color: #ece9e3;color: #676767;font-weight: bold;text-align:center;}
+input:focus, textarea:focus{background-color: #ffffff;border: 1px solid #9f9f9f;}
+
+.search_block {margin-top: 0px;}
+#notifs_form {display: none;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; height: 200px; overflow: auto;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+/* Nav bar start...*/
+#navbar   { background-color: #9c3; padding-top: 2px; padding-bottom: 2px; padding-left: 5px; border-bottom: 1px solid #aca899; cursor: default  }
+
+.NavMenu {font-family: Verdana,Tahoma,Georgia,sans-serif;font-size: 11px;/*-moz-user-select: none;*/}
+
+.NavMenu .button,
+.NavMenu .button:hover,
+.NavMenu .button-active,
+.NavMenu .button-active:hover {line-height: normal;padding: 3px 6px 3px 6px;border: 1px solid #ECE9D8;color: #676767;text-decoration: none;font-family: Tahoma,Georgia,sans-serif;font-size: 11px;font-weight: bold;cursor: default;white-space: nowrap;display: block;position: relative;}
+
+.NavMenu .button:hover {border-color: #ffffff #ACA899 #ACA899 #ffffff;color: #272727;}
+
+.NavMenu .button-active,
+.NavMenu .button-active:hover {border-color: #ACA899 #ffffff #ffffff #ACA899;color: #272727;}
+
+.NavMenu .item,
+.NavMenu .item:hover,
+.NavMenu .item-active,
+.NavMenu .item-active:hover {background-color: #ffffff;font-family: Tahoma,Georgia,sans-serif;font-size: 11px;line-height: normal;padding: 3px 16px 4px 10px;color: #676767;text-decoration: none;font-weight: bold;cursor: default;white-space: nowrap;display: block;position: relative;}
+
+.NavMenu .item:hover,
+.NavMenu .item-active,
+.NavMenu .item-active:hover {background-color: #efefef;color: #272727;border: 0px solid #316AC5;}
+
+.NavMenu .section {background-color: #ffffff;border: 1px solid #b8b4ae;position: absolute;visibility: hidden;z-index: -1;}
+
+.NavMenu .arrow {position: absolute;top: 7px;right: 8px;border: 0;}
+
+.NavMenu hr{height: 1px;width: 90%;border: 0px none;color: #24237f;background-color: #24237f;}
+
+* html .NavMenu td { position: relative;} /* ie 5.0 fix */
+/* ...Nav bar end */
+
+.section .item {margin-bottom: 0px;}
+li { color: #888; margin-bottom: 2px }
+ul { }
